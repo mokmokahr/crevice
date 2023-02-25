@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+
+*{
+  font-size: 20px;
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+/*header*/
+div.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: rgb(94, 94, 255);
+  height: 10vh;
+}
+a.bar-element{
+  color: aliceblue;
+  margin: 1rem;
+}
+
+/*AboutCrevice*/
+div.intro-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(0, 255, 255);
+  height: 90vh;
+  text-align: center;
+}
+div.intro-box>p{
+  font-size: 2rem;
+}
+
+div.intro-box>p#club-name{
+  font-size: 4rem;
+}
+
+/*ClubDesc*/
+
+div.club-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+div.club-description>p#title{
+  font-size: 2rem;
+}
+/*Activity*/
+div.activity-box{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: antiquewhite;
+  text-align: center;
+}
+div.activity-box>p#title{
+  font-size: 2rem;
+}
+div.activity-box>div#activity-desc{
+  height: 70vh;
+  background-color: rgb(255, 255, 255);
+}
+
+/*ClubMember*/
+div.club-member{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: darkorange;
+  height: 100vh;
+}
+div.club-member>p#title{
+  font-size: 2rem;
+}
+
+div.club-member>div#member-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/*모바일버전 따로 개발 필요함*/
+div.club-member>div#member-list>div.members{
+  width: 7rem;
+  height: 7rem;
+  background-color: azure;
+}
+
+/*Footer*/
+div.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  height: 20vh;
+  background-color: chartreuse;
+}
